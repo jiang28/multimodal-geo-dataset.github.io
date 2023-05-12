@@ -87,6 +87,8 @@ The High-Resolution Rapid Refresh (HRRR) model is a weather forecast model that 
 The Geostationary Operational Environmental Satellite (GOES) series provides continuous monitoring of the weather for the Western Hemisphere. Our dataset contains GOES visible and infrared imagery at a resolution of 2 km x 2 km.
 
 ## Citation
-
+1. MRMS. Multi-radar/multi-sensor system (mrms). https://www.nssl.noaa.gov/projects/mrms/
+2. GOES. Noaa geostationary satellite (goes). https://www.goes.noaa.gov/index.html, (2021).
+3. HRRR. Hrrr state variables. https://home.chpc.utah.edu/~u0553130/BrianBlaylock/HRRRarchive/hrrrprstablef00-f01.html, (2021).
 
 
