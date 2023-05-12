@@ -1,20 +1,20 @@
-### Multimodal Geo Dataset
+# Multimodal Geo Dataset
 This dataset contains multimodal geospatial data from NOAA MRMS, HRRR, and GOES sources.
 
 Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.github.io/) for more dataset information.
 
 ## Accessing the dataset
 
-## Dataset preview
+### Dataset preview
 
 Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.github.io/) for interactive viewing of our dataset.
 
 We also provide decompressed sample data (mesh files in `obj` format) under `example_data/`.
 
-# Access the entire dataset
+### Access the entire dataset
 We provide a compressed version of our dataset, together with a Python decompressor script that you can run to locally decompress it. Proceed as follows (this assumes you have conda installed):
 
-# Download the Multimodal Geo Dataset from Dataverse and unzip files.
+### Download the Multimodal Geo Dataset from Dataverse and unzip files.
 To reproduce the main results in the paper, you only need to download the NOAA_MRMS, HRRR, and GOES subsets as well as the data_split.tar.gz.
 Refer to here for how to unzip splitted zip files.
 Make sure the unzipped dataset looks like the following:
