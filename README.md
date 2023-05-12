@@ -1,9 +1,9 @@
-#### Multimodal Geo Dataset
+### Multimodal Geo Dataset
 This dataset contains multimodal geospatial data from NOAA MRMS, HRRR, and GOES sources.
 
 Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.github.io/) for more dataset information.
 
-### Accessing the dataset
+## Accessing the dataset
 
 ## Dataset preview
 
