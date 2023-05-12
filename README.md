@@ -1,21 +1,15 @@
-### Multimodal Geo Dataset
+#### Multimodal Geo Dataset
 This dataset contains multimodal geospatial data from NOAA MRMS, HRRR, and GOES sources.
 
 Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.github.io/) for more dataset information.
 
-## Accessing the dataset
+### Accessing the dataset
 
-### Dataset preview
+## Dataset preview
 
 Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.github.io/) for interactive viewing of our dataset.
 
 We also provide decompressed sample data (mesh files in `obj` format) under `example_data/`.
-## Accessing the dataset
-# Dataset preview
-Please visit our website for interactive viewing of our dataset.
-
-We also provide sample data in the form of compressed netCDF files and image files under example_data/.
-You can use Panoply to view netCDF files and QGIS to view image files.
 
 # Access the entire dataset
 We provide a compressed version of our dataset, together with a Python decompressor script that you can run to locally decompress it. Proceed as follows (this assumes you have conda installed):
