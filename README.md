@@ -18,44 +18,55 @@ We provide a compressed version of our dataset, together with a Python decompres
 To reproduce the main results in the paper, you only need to download the NOAA_MRMS, HRRR, and GOES subsets as well as the data_split.tar.gz.
 Refer to here for how to unzip splitted zip files.
 Make sure the unzipped dataset looks like the following:
+
 $DATA_ROOT/
 ├──── data_split/
-│     ├──── train.txt
-│     ├──── val.txt
-├──── climate_compressed/
-│     ├──── 2016/
-│     |     |──── 01/
-|     |     |     |──── climate_data.nc
-|     |     |     |──── climate_image.tif
-│     |     |──── 02/
+│     ├──── everyday.train.txt
+│     ├──── everyday.val.txt
+│     ├──── artifact.train.txt
+│     ├──── artifact.val.txt
+│     ├──── other.train.txt
+│     ├──── other.val.txt
+├──── everyday_compressed/
+│     ├──── BeerBottle/
+│     |     |──── 3f91158956ad7db0322747720d7d37e8/
+|     |     |     |──── compressed_data.npz
+|     |     |     |──── compressed_mesh.obj
+|     │     |     |──── mode_0/
+|     |     |     |     |──── compressed_fracture.npy
 •     •     •     •
 •     •     •     •
-|     |     |──── 12/
-|     |     |──── climatemax.npy
-│     ├──── 2017/
-│     |     |──── 01/
+|     |     |     |──── mode_19/
+|     |     |     |──── fractured_0/
 •     •     •     •
 •     •     •     •
-│     ├──── 2018/
-│     ├──── 2019/
-│     ├──── 2020/
-│     ├──── climatemax.npy
-├──── satellite_compressed/
-│     ├──── 2016/
-│     |     |──── 01/
-|     |     |     |──── satellite_data.nc
-|     |     |     |──── satellite_image.tif
-│     |     |──── 02/
-•     •     •     •
-•     •     •     •
-|     |     |──── 12/
-│     ├──── 2017/
-│     |     |──── 01/
-•     •     •     •
-•     •     •     •
-│     ├──── 2018/
-│     ├──── 2019/
-│     ├──── 2020/
+|     |     |     |──── fractured_79/
+│     |     |──── 6da7fa9722b2a12d195232a03d04563a/
+│     |     |──── 2927d6c8438f6e24fe6460d8d9bd16c6/
+•     •     •
+•     •     •
+│     ├──── Bottle/
+│     |     |──── 1/
+│     |     |──── 1b64b36bf7ddae3d7ad11050da24bb12/
+│     |     |──── 1c79735033726294724d5ee7f09ab66b/
+•     •     •
+•     •     •
+│     ├──── Bowl/
+•     •
+•     •
+├──── artifact_compressed/
+│     ├──── 39084_sf/
+│     ├──── 39085_sf/
+│     ├──── 39086_sf/
+•     •
+•     •
+├──── other_compressed/
+│     ├──── 32770_sf/
+│     ├──── 34783_sf/
+│     ├──── 34784_sf/
+•     •
+•     •
+```
 
 ## Dataset description
 
