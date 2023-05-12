@@ -1,38 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dataset Demo</title>
-  </head>
-  <body>
-    <header>
-      <h1>Dataset Demo</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#data">Data</a></li>
-          <li><a href="#visualizations">Visualizations</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About</h2>
-        <p>Insert a brief description of your dataset and its purpose here.</p>
-      </section>
-      <section id="data">
-        <h2>Data</h2>
-        <p>Insert a table or chart displaying your dataset here.</p>
-      </section>
-      <section id="visualizations">
-        <h2>Visualizations</h2>
-        <p>Insert visualizations of your dataset here, such as graphs or maps.</p>
-      </section>
-    </main>
-    <footer>
-      <p>Insert any relevant information, such as data sources and acknowledgments, here.</p>
-    </footer>
-  </body>
+<html>
+<head>
+	<title>Dataset Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 36px;
+			margin-top: 0;
+		}
+		
+		.container {
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -10px;
+		}
+		
+		.col {
+			flex: 1;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		
+		.col img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+		
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.footer p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Dataset Demo</h1>
+	</div>
+	<div class="container">
+		<p>Welcome to our dataset demo page!</p>
+		<p>Below are some sample images from our dataset:</p>
+		<div class="row">
+			<div class="col">
+				<img src="image1.jpg" alt="Sample image 1">
+			</div>
+			<div class="col">
+				<img src="image2.jpg" alt="Sample image 2">
+			</div>
+			<div class="col">
+				<img src="image3.jpg" alt="Sample image 3">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>&copy; 2023 Dataset Demo. All rights reserved.</p>
+	</div>
+</body>
 </html>
+
