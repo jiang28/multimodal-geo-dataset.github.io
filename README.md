@@ -75,6 +75,5 @@ The Geostationary Operational Environmental Satellite (GOES) series provides con
 
 ## Citation
 
-If you use our dataset, please cite our NeurIPS 2022 paper.
 
 
