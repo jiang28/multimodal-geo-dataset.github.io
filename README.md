@@ -72,11 +72,11 @@ $DATA_ROOT/
 
 ## Dataset description
 
-Our multimodal geo dataset contains data from three sources: NOAA MRMS, HRRR, and GOES.
+Our multimodal geo dataset contains data from three sources: MRMS, HRRR, and GOES.
 
-### NOAA MRMS
+### MRMS
 
-NOAA MRMS (Multi-Radar Multi-Sensor) is a weather radar and satellite-based precipitation estimation system that integrates data from multiple radars and multiple sensors. Our dataset contains MRMS precipitation rate data at a resolution of 1 km x 1 km.
+MRMS (Multi-Radar Multi-Sensor) is a weather radar and satellite-based precipitation estimation system that integrates data from multiple radars and multiple sensors. Our dataset contains MRMS precipitation rate data at a resolution of 1 km x 1 km.
 
 ### HRRR
 
@@ -88,7 +88,6 @@ The Geostationary Operational Environmental Satellite (GOES) series provides con
 
 ## Citation
 1. MRMS. Multi-radar/multi-sensor system (mrms). https://www.nssl.noaa.gov/projects/mrms/
-2. GOES. Noaa geostationary satellite (goes). https://www.goes.noaa.gov/index.html, (2021).
-3. HRRR. Hrrr state variables. https://home.chpc.utah.edu/~u0553130/BrianBlaylock/HRRRarchive/hrrrprstablef00-f01.html, (2021).
-
+2. HRRR. Hrrr state variables. https://home.chpc.utah.edu/~u0553130/BrianBlaylock/HRRRarchive/hrrrprstablef00-f01.html, (2021).
+3. GOES. Noaa geostationary satellite (goes). https://www.goes.noaa.gov/index.html, (2021).
 
