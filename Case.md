@@ -4,3 +4,5 @@ We show case how to zoom in on our dataset for a smaller region, taking Texas as
 
 ## Study area
 
+![study area](docs/imgs/studyArea.png)
+![Texas](docs/imgs/Texas.png)
