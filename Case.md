@@ -12,7 +12,12 @@ Left if the whole data area, and right is Texas region.
 
 [Corpus Christi, TX - discharge](https://github.com/jiang28/multimodal-geo-dataset.github.io/blob/master/nwis.waterservices.usgs.gov_Discharge.txt)
 
+<img src="docs/imgs/CC_discarge.png" width="500" > 
+
+
 [Corpus Christi, TX - gage height](https://github.com/jiang28/multimodal-geo-dataset.github.io/blob/master/nwis.waterservices.usgs.gov_gage_height.txt)
+
+<img src="docs/imgs/CC_gage_height.png" width="500" > 
 
 ### Hydrology data API
 
