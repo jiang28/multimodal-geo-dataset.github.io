@@ -11,7 +11,7 @@ Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.gith
 
 Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.github.io/) for interactive viewing of our dataset.
 
-We also provide decompressed sample data (mesh files in `obj` format) under `example_data/`.
+We also provide decompressed sample data (npy or csv format) under `example_data/`.
 
 ### Access the entire dataset
 We provide a compressed version of our dataset, together with a Python decompressor script that you can run to locally decompress it. Proceed as follows (this assumes you have conda installed):
@@ -22,55 +22,6 @@ Refer to here for how to unzip splitted zip files.
 Make sure the unzipped dataset looks like the following:
 
 
-```
-$DATA_ROOT/
-├──── data_split/
-│     ├──── everyday.train.txt
-│     ├──── everyday.val.txt
-│     ├──── artifact.train.txt
-│     ├──── artifact.val.txt
-│     ├──── other.train.txt
-│     ├──── other.val.txt
-├──── everyday_compressed/
-│     ├──── BeerBottle/
-│     |     |──── 3f91158956ad7db0322747720d7d37e8/
-|     |     |     |──── compressed_data.npz
-|     |     |     |──── compressed_mesh.obj
-|     │     |     |──── mode_0/
-|     |     |     |     |──── compressed_fracture.npy
-•     •     •     •
-•     •     •     •
-|     |     |     |──── mode_19/
-|     |     |     |──── fractured_0/
-•     •     •     •
-•     •     •     •
-|     |     |     |──── fractured_79/
-│     |     |──── 6da7fa9722b2a12d195232a03d04563a/
-│     |     |──── 2927d6c8438f6e24fe6460d8d9bd16c6/
-•     •     •
-•     •     •
-│     ├──── Bottle/
-│     |     |──── 1/
-│     |     |──── 1b64b36bf7ddae3d7ad11050da24bb12/
-│     |     |──── 1c79735033726294724d5ee7f09ab66b/
-•     •     •
-•     •     •
-│     ├──── Bowl/
-•     •
-•     •
-├──── artifact_compressed/
-│     ├──── 39084_sf/
-│     ├──── 39085_sf/
-│     ├──── 39086_sf/
-•     •
-•     •
-├──── other_compressed/
-│     ├──── 32770_sf/
-│     ├──── 34783_sf/
-│     ├──── 34784_sf/
-•     •
-•     •
-```
 
 ## Dataset description
 
