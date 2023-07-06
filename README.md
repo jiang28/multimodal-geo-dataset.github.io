@@ -14,7 +14,7 @@ Please visit [our website](https://jiang28.github.io/multimodal-geo-dataset.gith
 We also provide decompressed sample data (npy or csv format) under `example_data/`.
 
 ### Access the entire dataset
-As a result of GitHub's storage limitations, we have made available a compressed version of our dataset within a shared folder on [Google Drive Folder](https://drive.google.com/drive/folders/1eJHXZUubygVqC51j-2oB0cziYY6G1qJc?usp=sharing) .
+As a result of GitHub's storage limitations, we have made available a compressed version of our dataset within a shared folder on [Google Drive](https://drive.google.com/drive/folders/1eJHXZUubygVqC51j-2oB0cziYY6G1qJc?usp=sharing) .
 
 ### Download the Multimodal Geo Dataset from Dataverse and unzip files.
 To reproduce the main results in the paper, you only need to download the precipitation dataset.
